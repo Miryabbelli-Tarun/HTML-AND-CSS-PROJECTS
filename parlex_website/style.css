@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: blue;
+}
+.header h1{
+    color: aquamarine;
+}
+
+/* navbar */
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 15px;
+    
+}
+.container li{
+    color: white;
+}
+
+
+.section{
+    position: relative;
+}
+.section .bg{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    z-index: 0;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    background: rgb(66, 71, 75);
+    color: white;
+    font-weight: bolder;
+    padding: 20px 40px;
+    text-align: center;
+}
+.about{
+    text-align: center;
+    padding: 20px 50px;
+    background-color: aliceblue;
+    columns: #222;
+}
+
+
+.taj{
+    background-image: url('images/taj.png');  
+}
+.petra{
+    background-image: url('images/petra.png');
+}
+.machu{
+    background-image: url('images/MachuPicchu.png');
+}
+.wall{
+    background-image: url('images/gratewall.png');
+}
+.coloss{
+    background-image: url('images/Colosseum.png');
+}
+.redeemer{
+    background-image: url('images/ChristtheRedeemer.png');
+}
+.chich{
+    background-image: url('images/ChichénItzá.png');
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
